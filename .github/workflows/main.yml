@@ -34,3 +34,8 @@ jobs:
 
       - name: Push to DockerHub
         run: docker push kishxrx/nodejs-demo-app:latest
+
+        
+      - name: Done message ✅
+        run: echo "🎉 Deployment Complete! Everything worked correctly."
+
